@@ -1,0 +1,9 @@
+# Keep the CUDA PyTorch supplied by Colab/Kaggle or the training machine.
+# Inference needs only tokenizers in addition to that PyTorch.
+tokenizers==0.22.2
+# Data preparation, training and validation:
+pyarrow==24.0.0
+huggingface_hub==1.33.0
+numpy>=1.26
+# Original unit tests:
+pytest>=8,<10
