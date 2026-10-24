@@ -1,0 +1,17 @@
+{
+  "signature": "050ea2ccbcde7780535c129fbe06d4ba3feec03ed5f7ba22965c4ad6ce34d212",
+  "sha256": "659f7740d5fc78e8ad7c7b395331fc294a6186f270b6643272dce80e640fc6d2",
+  "vocab_size": 8192,
+  "counts": {
+    "train_rows_used": 11244489,
+    "validation_rows_excluded": 593514,
+    "invalid_rows": 0
+  },
+  "special_tokens": {
+    "<pad>": 0,
+    "<eos>": 1,
+    "<unk>": 2,
+    "<bos>": 3
+  },
+  "elapsed_seconds": 204.47
+}

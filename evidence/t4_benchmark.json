@@ -1,0 +1,40 @@
+{
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "Tesla T4",
+    "capability": [
+      7,
+      5
+    ]
+  },
+  "rows": 1919,
+  "checkpoint_step": 111275,
+  "bundle_manifest_sha256": "9217a4bf527eea843dbc945ab652c9d4fbefde7e82008e3fa7dc5f78793188df",
+  "batch_size": 32,
+  "max_new_tokens": 384,
+  "full_run_seconds": [
+    26.30185122900002,
+    26.310459639999976,
+    26.320215330999986
+  ],
+  "median_seconds": 26.310459639999976,
+  "max_seconds": 26.320215330999986,
+  "within_180_seconds": true,
+  "within_150_second_margin": true,
+  "timing_scope": "sort, CPU padding, transfers, encoder, cached decoder, detokenization, JSONL write",
+  "model_load_seconds": 1.9656974279999986,
+  "warmup_seconds": 1.2006220590000112,
+  "load_plus_warmup_plus_first_full_seconds": 29.46817071600003,
+  "repeated_outputs_identical": true,
+  "eos": 1916,
+  "syntax_ok": 1918,
+  "peak_allocated_GiB": 0.40886449813842773,
+  "peak_reserved_GiB": 0.455078125,
+  "predictions_sha256": [
+    "e3b2f9c9170111dc17a17800c992c72c2250337b4c7e5c8a93f87cb7b309e9f5",
+    "e3b2f9c9170111dc17a17800c992c72c2250337b4c7e5c8a93f87cb7b309e9f5",
+    "e3b2f9c9170111dc17a17800c992c72c2250337b4c7e5c8a93f87cb7b309e9f5"
+  ]
+}

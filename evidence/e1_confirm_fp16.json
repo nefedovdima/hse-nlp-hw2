@@ -1,0 +1,47 @@
+{
+  "total": 2088,
+  "reference_numeric": 1578,
+  "matches": 1086,
+  "eos": 2080,
+  "syntax_ok": 2084,
+  "prediction_numeric": 2013,
+  "reference_unsupported": 475,
+  "reference_nonnumeric": 35,
+  "reference_runtime_error": 0,
+  "reference_syntax_error": 0,
+  "agreement_numeric_references": 0.688212927756654,
+  "agreement_all_lower_bound": 0.5201149425287356,
+  "reference_numeric_coverage": 0.7557471264367817,
+  "metric_notice": "Restricted AST agreement to original labels; NOT official pass@1 or mathematical truth",
+  "generation_seconds": 23.521604166016914,
+  "effective_batch_size": 32,
+  "step": 57502,
+  "target_tokens": null,
+  "source_tokens": null,
+  "examples": null,
+  "model_config": {
+    "vocab_size": 8192,
+    "dim": 384,
+    "heads": 6,
+    "encoder_layers": 4,
+    "decoder_layers": 4,
+    "ff_dim": 1536,
+    "dropout": 0.1,
+    "max_positions": 2048
+  },
+  "validation_sha256": "9161c271cde8fb9f6a8c23ed876831ee5288c749d8e9f16697d77a2021f5f49d",
+  "checkpoint_sha256": "691b1dfb2eb191f73630c5ba1a84da08193d8f6ede305b32f92d94d833b72543",
+  "role": "confirm",
+  "max_new_tokens": 384,
+  "precision": "fp16",
+  "environment": {
+    "python": "3.12.15",
+    "torch": "2.14.1+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "capability": [
+      12,
+      0
+    ]
+  }
+}

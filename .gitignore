@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training and inference outputs
+outputs/
+experiments/
+checkpoints/
+reports/
+*.pt
+*.pth
+*.part[0-9]*
+*.zip
+
+# Dataset cache
+data/raw/
+data/prepared/**/*.arrow
+data/prepared/**/*.parquet
+
+# System
+.DS_Store
+Thumbs.db

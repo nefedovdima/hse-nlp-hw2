@@ -1,0 +1,20 @@
+{
+  "n": 1578,
+  "delta": 0.07477820025348543,
+  "ci95": [
+    0.056400506970849175,
+    0.09315589353612168
+  ],
+  "gained": 170,
+  "lost": 52,
+  "seed": 42,
+  "caveat": "Row bootstrap; correlated paraphrases may make the interval too narrow",
+  "a": "/workspace/hw2_vast/experiments/v2/e1_confirm_fp16.json",
+  "b": "/workspace/hw2_vast/experiments/v2/v2_confirm_fp16.json",
+  "a_tokens": null,
+  "b_tokens": 1640734418,
+  "same_training_token_budget": false,
+  "same_source_tokens": false,
+  "confirm_quality_gate": true,
+  "note": "Quality gate is necessary, not sufficient: require full train and actual T4 <=150 s margin; AST metric is a proxy"
+}

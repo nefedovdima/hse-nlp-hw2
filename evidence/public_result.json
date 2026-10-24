@@ -1,0 +1,21 @@
+{
+  "source": "User-supplied transcript of Telegram competition bot, not a programmatically verified bot API export",
+  "timestamp_moscow": "2026-10-23 23:15",
+  "v2": {
+    "public_correct": 713,
+    "public_total": 960,
+    "pass_at_1_percent": 74.27,
+    "public_place": 17,
+    "participants": 45,
+    "no_code_percent": 0.0,
+    "syntax_error_percent": 0.0,
+    "runtime_error_percent": 0.42,
+    "wrong_numeric_percent": 25.31
+  },
+  "e1": {
+    "public_correct": 599,
+    "public_total": 960,
+    "pass_at_1_percent": 62.4
+  },
+  "warning": "Never describe public pass@1 as private pass@1."
+}

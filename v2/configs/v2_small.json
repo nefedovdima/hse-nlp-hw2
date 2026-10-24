@@ -1,0 +1,18 @@
+{
+  "name": "v2_small",
+  "model": {
+    "vocab_size": 8192,
+    "dim": 576,
+    "heads": 9,
+    "encoder_layers": 6,
+    "decoder_layers": 4,
+    "ff_dim": 2304,
+    "ffn": "gelu",
+    "norm": "layer",
+    "position": "sinusoidal",
+    "tying": "all",
+    "dropout": 0.1,
+    "max_positions": 2048
+  },
+  "train": {}
+}
